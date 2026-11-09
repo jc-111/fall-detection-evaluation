@@ -119,9 +119,9 @@ python3.10 -m venv .venv && .venv/bin/pip install -e ".[dev]"
 .venv/bin/python -m pytest
 ```
 
-`fetch_third_party.py` clones the upstream repository at a pinned commit. It then checks all 38 files against recorded hashes and applies a small CPU-loading patch.
+`fetch_third_party.py` clones the upstream repository at a pinned commit. It then checks all 38 files against recorded hashes and applies a small CPU-loading patch. The package imports this code, so it is required for everything, including the tests (`pytest` stops with a message if it is missing).
 
-Without model weights, the tests that need models are skipped. The rest of the suite covers:
+Without model weights, the tests that need models are skipped. The rest of the suite (31 tests) covers:
 - event metrics;
 - the annotation format and the review tool;
 - feature normalisation;

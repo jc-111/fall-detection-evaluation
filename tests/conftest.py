@@ -1,11 +1,13 @@
+from pathlib import Path
+
 import pytest
 
-from fall_detection.config import DEFAULT_CONFIG, REPO_ROOT, load_config
+# The inherited upstream code is not redistributed, and the package imports it (e.g. pose_utils),
+# so nothing can be tested until it has been fetched.
+if not (Path(__file__).resolve().parents[1] / "third_party" / "human_falling_detect_tracks" / "pose_utils.py").exists():
+    pytest.exit("inherited upstream code missing: run  python scripts/fetch_third_party.py  first", returncode=4)
 
-# The inherited model code is not redistributed; fetch it with scripts/fetch_third_party.py.
-THIRD_PARTY_READY = (REPO_ROOT / "third_party" / "human_falling_detect_tracks" / "pose_utils.py").exists()
-collect_ignore = [] if THIRD_PARTY_READY else [
-    "test_checkpoint.py", "test_pipeline_smoke.py", "test_dataset_parity.py"]
+from fall_detection.config import DEFAULT_CONFIG, REPO_ROOT, load_config  # noqa: E402
 
 CONFIG = load_config(DEFAULT_CONFIG)
 MODEL_FILES = [CONFIG.detector.cfg_file, CONFIG.detector.weights, CONFIG.pose.weights,
@@ -15,10 +17,9 @@ LEGACY_VIDEO_001 = REPO_ROOT / "legacy" / "web_app" / "detect" / "video" / "001.
 
 
 def pytest_collection_modifyitems(config, items):
-    if MODELS_READY and THIRD_PARTY_READY:
+    if MODELS_READY:
         return
-    skip = pytest.mark.skip(reason="third-party code or model files missing: run scripts/fetch_third_party.py "
-                                   "and scripts/setup_models.py")
+    skip = pytest.mark.skip(reason="model files missing: run python scripts/setup_models.py")
     for item in items:
         if "models" in item.keywords:
             item.add_marker(skip)
