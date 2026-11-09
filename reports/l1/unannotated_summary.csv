@@ -1,0 +1,17 @@
+detector,scene,videos,videos_with_prediction,predicted_events,hours,predicted_events_per_hour
+rule_r101,coffee_room_01,1,1,1,0.0031,323.7
+rule_r101,coffee_room_02,2,1,1,0.0241,41.5
+rule_r101,lecture_room,27,8,8,0.1921,41.6
+rule_r101,office,33,10,10,0.1839,54.4
+rule_r50,coffee_room_01,1,1,1,0.0031,323.7
+rule_r50,coffee_room_02,2,1,1,0.0241,41.5
+rule_r50,lecture_room,27,11,11,0.1921,57.2
+rule_r50,office,33,10,10,0.1839,54.4
+stgcn_r101,coffee_room_01,1,1,1,0.0031,323.7
+stgcn_r101,coffee_room_02,2,2,2,0.0241,83.0
+stgcn_r101,lecture_room,27,13,13,0.1921,67.7
+stgcn_r101,office,33,18,21,0.1839,114.2
+stgcn_r50,coffee_room_01,1,1,1,0.0031,323.7
+stgcn_r50,coffee_room_02,2,2,2,0.0241,83.0
+stgcn_r50,lecture_room,27,19,19,0.1921,98.9
+stgcn_r50,office,33,18,19,0.1839,103.3

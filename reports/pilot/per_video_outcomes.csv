@@ -1,0 +1,11 @@
+video_id,has_fall,gt_events,review,not_visible,rule_r50,rule_r50_pred_s,rule_r50_latency_s,stgcn_r50,stgcn_r50_pred_s,stgcn_r50_latency_s,stgcn_r101,stgcn_r101_pred_s,stgcn_r101_latency_s
+le2i/lecture_room/2,yes,"[(375, 405)]",accepted,"[[0, 82]]",correct,[15.6],[0.6],correct,[15.8],[0.8],missed 1,[],[]
+le2i/lecture_room/10,yes,"[(341, 380)]",accepted,"[[0, 59]]",correct,[14.08],[0.44],correct,[14.32],[0.68],correct,[14.36],[0.72]
+le2i/lecture_room/11,yes,"[(241, 283)]",accepted,"[[0, 100]]",missed 1,[],[],correct,[10.96],[1.32],correct,[11.2],[1.56]
+le2i/lecture_room/23,no,[],accepted,"[[0, 85], [540, 674]]",correct,[],[],correct,[],[],correct,[],[]
+le2i/lecture_room/26,no,[],accepted,"[[0, 70], [955, 1185]]",correct,[],[],1 false alarm(s),[14.32],[],correct,[],[]
+le2i/office/3,yes,"[(345, 375)]",accepted,[],correct,[14.28],[0.48],correct,[14.36],[0.56],missed 1,[],[]
+le2i/office/9,yes,"[(64, 100)]",accepted,"[[0, 35]]",missed 1,[],[],correct,[3.2],[0.64],correct,[3.32],[0.76]
+le2i/office/21,no,[],accepted,"[[0, 10], [395, 427]]",correct,[],[],correct,[],[],correct,[],[]
+le2i/office/29,no,[],accepted,"[[1140, 1220]]",correct,[],[],correct,[],[],correct,[],[]
+le2i/office/30,no,[],accepted,"[[0, 145], [1120, 1246]]",correct,[],[],correct,[],[],1 false alarm(s),[16.72],[]

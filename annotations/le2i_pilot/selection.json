@@ -1,0 +1,20 @@
+{
+ "seed": 20261004,
+ "per_scene": {
+  "lecture_room": 5,
+  "office": 5
+ },
+ "method": "numpy default_rng(seed).choice over video IDs sorted by number, per scene in the order listed; no model output used",
+ "videos": [
+  "le2i/lecture_room/2",
+  "le2i/lecture_room/10",
+  "le2i/lecture_room/11",
+  "le2i/lecture_room/23",
+  "le2i/lecture_room/26",
+  "le2i/office/3",
+  "le2i/office/9",
+  "le2i/office/21",
+  "le2i/office/29",
+  "le2i/office/30"
+ ]
+}

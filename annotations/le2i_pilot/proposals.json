@@ -1,0 +1,214 @@
+{
+ "schema": "fall-event-proposals/v1",
+ "status": "UNVERIFIED PROPOSALS - not ground truth. Only entries in annotations.json confirmed by a human reviewer count as ground truth.",
+ "frame_index": "0-based, sequential cv2 decode order (same numbering as annotations.json and the pipeline)",
+ "method": "Visual inspection by an LLM vision model (Claude) of frame-numbered contact sheets rendered with scripts/make_review_sheets.py: an overview every 15 frames, then dense strips (every 2-3 frames) around candidate events and around bending/fast-motion moments in no-fall videos. No output of the rule baseline or the ST-GCN was viewed for these 10 videos.",
+ "label_definitions": {
+  "start": "first frame of visible loss of balance / uncontrolled descent",
+  "end": "first frame where the person is on the ground and the fall motion has stopped (limbs settled); matches the official Le2i Coffee-room convention",
+  "not_a_fall": "deliberately sitting, bending, kneeling to pick something up"
+ },
+ "calibration": "Before proposing, the same procedure was run blind on 9 officially annotated Coffee/Home videos (reports/pilot/PILOT_PROPOSAL_REPORT.md): fall/no-fall 9/9 agreement; start frames within -4..+7 frames; end frames were systematically 9-29 frames early under the earlier 'first contact' end convention, which is why the end definition above was adopted. The adopted end convention was not itself tested blind.",
+ "videos": {
+  "le2i/lecture_room/2": {
+   "has_fall": "yes",
+   "events": [
+    {
+     "start": 375,
+     "end": 405
+    }
+   ],
+   "confidence": "medium",
+   "boundary_uncertainty_frames": 6,
+   "note": "slow slumping collapse onto the mat from standing; partly controlled-looking",
+   "evidence": [
+    "0-505 s15",
+    "345-420 s3"
+   ],
+   "not_visible": [
+    [
+     0,
+     82
+    ]
+   ]
+  },
+  "le2i/lecture_room/10": {
+   "has_fall": "yes",
+   "events": [
+    {
+     "start": 341,
+     "end": 380
+    }
+   ],
+   "confidence": "high",
+   "boundary_uncertainty_frames": 4,
+   "note": "gets up from chair, trips over the mat, legs fly up",
+   "evidence": [
+    "0-492 s15",
+    "320-392 s3"
+   ],
+   "not_visible": [
+    [
+     0,
+     59
+    ]
+   ]
+  },
+  "le2i/lecture_room/11": {
+   "has_fall": "yes",
+   "events": [
+    {
+     "start": 241,
+     "end": 283
+    }
+   ],
+   "confidence": "medium",
+   "boundary_uncertainty_frames": 6,
+   "note": "lurches toward mat, kneels, then collapses forward; start of uncontrolled phase ambiguous",
+   "evidence": [
+    "0-362 s15",
+    "232-304 s3"
+   ],
+   "not_visible": [
+    [
+     0,
+     100
+    ]
+   ]
+  },
+  "le2i/lecture_room/23": {
+   "has_fall": "no",
+   "events": [],
+   "confidence": "high",
+   "note": "bends to pick up a paper (f420-480), walks out; person out of view after ~f540",
+   "evidence": [
+    "0-674 s15",
+    "396-492 s6"
+   ],
+   "not_visible": [
+    [
+     0,
+     85
+    ],
+    [
+     540,
+     674
+    ]
+   ]
+  },
+  "le2i/lecture_room/26": {
+   "has_fall": "no",
+   "events": [],
+   "confidence": "medium",
+   "note": "handles a bag at the table, bends to put it down (f525-540); out of view ~f945-f1200; no fall seen in visible frames",
+   "evidence": [
+    "0-1428 s15",
+    "285-573 s12"
+   ],
+   "not_visible": [
+    [
+     0,
+     70
+    ],
+    [
+     955,
+     1185
+    ]
+   ]
+  },
+  "le2i/office/3": {
+   "has_fall": "yes",
+   "events": [
+    {
+     "start": 345,
+     "end": 375
+    }
+   ],
+   "confidence": "high",
+   "boundary_uncertainty_frames": 4,
+   "note": "sits, stands up, steps and falls onto the mat",
+   "evidence": [
+    "0-466 s15",
+    "315-396 s3"
+   ],
+   "not_visible": []
+  },
+  "le2i/office/9": {
+   "has_fall": "yes",
+   "events": [
+    {
+     "start": 64,
+     "end": 100
+    }
+   ],
+   "confidence": "high",
+   "boundary_uncertainty_frames": 4,
+   "note": "falls backwards onto the mat",
+   "evidence": [
+    "0-205 s10",
+    "56-110 s2"
+   ],
+   "not_visible": [
+    [
+     0,
+     35
+    ]
+   ]
+  },
+  "le2i/office/21": {
+   "has_fall": "no",
+   "events": [],
+   "confidence": "high",
+   "note": "sits reading, stands, walks out fast (motion blur f350-390, upright)",
+   "evidence": [
+    "0-427 s15",
+    "300-408 s4"
+   ],
+   "not_visible": [
+    [
+     0,
+     10
+    ],
+    [
+     395,
+     427
+    ]
+   ]
+  },
+  "le2i/office/29": {
+   "has_fall": "no",
+   "events": [],
+   "confidence": "high",
+   "note": "stands at the table throughout, walks out near the end",
+   "evidence": [
+    "0-1220 s15"
+   ],
+   "not_visible": [
+    [
+     1140,
+     1220
+    ]
+   ]
+  },
+  "le2i/office/30": {
+   "has_fall": "no",
+   "events": [],
+   "confidence": "high",
+   "note": "walks in, sits and works at the table, stands, walks out",
+   "evidence": [
+    "0-1246 s15"
+   ],
+   "not_visible": [
+    [
+     0,
+     145
+    ],
+    [
+     1120,
+     1246
+    ]
+   ]
+  }
+ },
+ "not_visible_definition": "frames where the person is out of view (or too little of the body is visible to judge a fall); approximate (about +-15 frames), read from the overview sheets. No fall can be verified or ruled out there."
+}

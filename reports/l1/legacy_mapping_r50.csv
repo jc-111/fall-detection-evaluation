@@ -1,0 +1,135 @@
+legacy_pickle,legacy_segment,window_start,window_end,n_frames,label_runs,video_id,scene,frame_start,frame_end,rmse,content_best_video,content_best_rmse,content_margin,confidence
+coffee,0,0,331,361,Walking:68 > Standing:77 > Walking:41 > Fall Down:38 > Lying Down:108,le2i/coffee_room_01/10,coffee_room_01,0,360,0.1833,le2i/coffee_room_01/10,0.1833,2.91,high
+coffee,1,332,784,482,Standing:28 > Walking:53 > Standing:39 > Walking:230 > Fall Down:32 > Lying Down:71,le2i/coffee_room_01/11,coffee_room_01,0,481,0.2565,le2i/coffee_room_01/11,0.2565,2.16,high
+coffee,2,785,936,181,Sitting:12 > Stand up:21 > Fall Down:26 > Lying Down:93,le2i/coffee_room_01/12,coffee_room_01,1,181,0.1802,le2i/coffee_room_01/12,0.1802,2.74,high
+coffee,3,937,1150,243,Sitting:13 > Stand up:20 > Walking:36 > Fall Down:33 > Lying Down:112,le2i/coffee_room_01/13,coffee_room_01,0,242,0.4213,le2i/coffee_room_01/13,0.4213,1.34,high
+coffee,4,1151,1296,175,Walking:24 > Fall Down:30 > Lying Down:92,le2i/coffee_room_01/14,coffee_room_01,0,174,0.2504,le2i/coffee_room_01/14,0.2504,1.36,high
+coffee,5,1297,1406,139,Walking:22 > Fall Down:33 > Lying Down:55,le2i/coffee_room_01/15,coffee_room_01,0,138,0.3141,le2i/coffee_room_01/15,0.3141,1.12,medium
+coffee,6,1407,1553,176,Walking:17 > Fall Down:42 > Lying Down:88,le2i/coffee_room_01/16,coffee_room_01,0,175,0.2257,le2i/coffee_room_01/16,0.2257,1.72,high
+coffee,7,1554,1681,157,Fall Down:44 > Lying Down:84,le2i/coffee_room_01/17,coffee_room_01,0,156,0.1029,le2i/coffee_room_01/17,0.1029,2.91,high
+coffee,8,1682,1920,268,Walking:130 > Fall Down:42 > Lying Down:67,le2i/coffee_room_01/18,coffee_room_01,0,267,0.1264,le2i/coffee_room_01/18,0.1264,3.61,high
+coffee,9,1921,2103,212,Walking:60 > Fall Down:58 > Lying Down:65,le2i/coffee_room_01/19,coffee_room_01,0,211,0.2107,le2i/coffee_room_01/19,0.2107,2.18,high
+coffee,10,2104,2379,305,Walking:160 > Fall Down:37 > Lying Down:79,le2i/coffee_room_01/2,coffee_room_01,0,304,0.1998,le2i/coffee_room_01/2,0.1998,2.05,high
+coffee,11,2380,2793,443,Walking:18 > Standing:24 > Walking:31 > Standing:115 > Walking:16 > Standing:99 > Fall Down:50 > Lying Down:61,le2i/coffee_room_01/20,coffee_room_01,0,442,0.1143,le2i/coffee_room_01/20,0.1143,4.51,high
+coffee,12,2794,2945,181,Sitting:15 > Stand up:40 > Fall Down:31 > Lying Down:66,le2i/coffee_room_01/21,coffee_room_01,0,180,0.1792,le2i/coffee_room_01/21,0.1792,1.31,high
+coffee,13,2946,3144,228,Sitting:39 > Stand up:39 > Walking:23 > Fall Down:37 > Lying Down:61,le2i/coffee_room_01/22,coffee_room_01,0,227,0.1171,le2i/coffee_room_01/22,0.1171,3.84,high
+coffee,14,3145,3425,310,Sitting:73 > Stand up:72 > Standing:27 > Fall Down:64 > Lying Down:45,le2i/coffee_room_01/23,coffee_room_01,0,309,0.1932,le2i/coffee_room_01/23,0.1932,2.1,high
+coffee,15,3426,3662,266,Sitting:84 > Stand up:45 > Walking:57 > Fall Down:34 > Lying Down:17,le2i/coffee_room_01/24,coffee_room_01,0,265,0.1165,le2i/coffee_room_01/24,0.1165,2.68,high
+coffee,16,3663,3894,261,Sitting:22 > Stand up:37 > Walking:53 > Fall Down:48 > Lying Down:72,le2i/coffee_room_01/25,coffee_room_01,0,260,0.1245,le2i/coffee_room_01/25,0.1245,4.09,high
+coffee,17,3895,4142,277,Sitting:16 > Stand up:30 > Walking:119 > Fall Down:48 > Lying Down:35,le2i/coffee_room_01/26,coffee_room_01,0,276,0.2176,le2i/coffee_room_01/26,0.2176,1.79,high
+coffee,18,4143,4365,252,Sitting:44 > Stand up:32 > Walking:27 > Fall Down:73 > Lying Down:47,le2i/coffee_room_01/27,coffee_room_01,0,251,0.1546,le2i/coffee_room_01/27,0.1546,3.42,high
+coffee,19,4366,4510,174,Sitting:9 > Stand up:36 > Fall Down:37 > Lying Down:63,le2i/coffee_room_01/28,coffee_room_01,0,173,0.324,le2i/coffee_room_01/28,0.324,1.6,high
+coffee,20,4511,4808,327,Walking:126 > Standing:114 > Walking:37 > Fall Down:21,le2i/coffee_room_01/29,coffee_room_01,0,326,0.3032,le2i/coffee_room_01/29,0.3032,1.54,high
+coffee,21,4809,5073,294,Walking:82 > Standing:53 > Walking:50 > Fall Down:51 > Lying Down:29,le2i/coffee_room_01/3,coffee_room_01,8,301,0.1827,le2i/coffee_room_01/3,0.1827,1.99,high
+coffee,22,5074,5188,144,Walking:57 > Fall Down:27 > Lying Down:31,le2i/coffee_room_01/30,coffee_room_01,0,143,0.3931,le2i/coffee_room_01/30,0.3931,1.16,medium
+coffee,23,5189,5423,264,Sitting:8 > Stand up:50 > Walking:73 > Fall Down:36 > Lying Down:68,le2i/coffee_room_01/31,coffee_room_01,0,263,0.2477,le2i/coffee_room_01/31,0.2477,1.71,high
+coffee,24,5424,5698,304,Sitting:13 > Stand up:50 > Walking:75 > Standing:26 > Walking:22 > Fall Down:23 > Lying Down:66,le2i/coffee_room_01/32,coffee_room_01,0,303,0.1585,le2i/coffee_room_01/32,0.1585,2.7,high
+coffee,25,5699,5895,226,Walking:60 > Fall Down:45 > Lying Down:92,le2i/coffee_room_01/33,coffee_room_01,0,225,0.2422,le2i/coffee_room_01/33,0.2422,1.83,high
+coffee,26,5896,6280,414,Sitting:234 > Stand up:37 > Walking:35 > Fall Down:25 > Lying Down:54,le2i/coffee_room_01/34,coffee_room_01,0,413,0.0968,le2i/coffee_room_01/34,0.0968,4.7,high
+coffee,27,6281,6481,230,Walking:43 > Fall Down:52 > Lying Down:106,le2i/coffee_room_01/35,coffee_room_01,0,229,0.2044,le2i/coffee_room_01/35,0.2044,1.89,high
+coffee,28,6482,7654,1202,Walking:50 > Standing:244 > Walking:108 > Standing:51 > Walking:195 > Standing:76 > Walking:125 > Standing:150 > Walking:63 > Fall Down:39 > Lying Down:72,le2i/coffee_room_01/36,coffee_room_01,0,1201,0.1152,le2i/coffee_room_01/36,0.1152,4.61,high
+coffee,29,7655,7830,205,Walking:25 > Fall Down:47 > Lying Down:104,le2i/coffee_room_01/37,coffee_room_01,0,204,0.4339,le2i/coffee_room_01/37,0.4339,1.15,medium
+coffee,30,7831,8152,351,Sitting:150 > Stand up:34 > Walking:26 > Fall Down:33 > Lying Down:79,le2i/coffee_room_01/38,coffee_room_01,0,350,0.1663,le2i/coffee_room_01/38,0.1663,3.01,high
+coffee,31,8153,8279,156,Walking:21 > Fall Down:37 > Lying Down:69,le2i/coffee_room_01/39,coffee_room_01,0,155,0.3399,le2i/coffee_room_01/39,0.3399,1.23,high
+coffee,32,8280,8450,200,Walking:93 > Fall Down:43 > Lying Down:35,le2i/coffee_room_01/4,coffee_room_01,6,205,0.3741,le2i/coffee_room_01/4,0.3741,1.37,high
+coffee,33,8451,8770,349,Stand up:21 > Walking:83 > Standing:60 > Walking:68 > Fall Down:48 > Lying Down:40,le2i/coffee_room_01/40,coffee_room_01,0,348,0.1551,le2i/coffee_room_01/40,0.1551,2.95,high
+coffee,34,8771,9122,381,Walking:38 > Standing:29 > Walking:171 > Fall Down:41 > Lying Down:73,le2i/coffee_room_01/41,coffee_room_01,0,380,0.1352,le2i/coffee_room_01/41,0.1352,4.0,high
+coffee,35,9123,9251,158,Sitting:1 > Stand up:60 > Standing:31 > Fall Down:27 > Lying Down:10,le2i/coffee_room_01/42,coffee_room_01,0,157,0.1316,le2i/coffee_room_01/42,0.1316,2.68,high
+coffee,36,9252,9939,717,Sitting:17 > Stand up:45 > Standing:37 > Walking:85 > Standing:67 > Walking:158 > Standing:112 > Walking:24 > Standing:46 > Fall Down:53 > Lying Down:44,le2i/coffee_room_01/43,coffee_room_01,0,716,0.1433,le2i/coffee_room_01/43,0.1433,3.04,high
+coffee,37,9940,10042,132,Standing:1 > Walking:33 > Fall Down:48 > Lying Down:21,le2i/coffee_room_01/44,coffee_room_01,0,131,0.1865,le2i/coffee_room_01/44,0.1865,2.3,high
+coffee,38,10043,10227,214,Standing:13 > Walking:65 > Fall Down:42 > Lying Down:65,le2i/coffee_room_01/45,coffee_room_01,0,213,0.1494,le2i/coffee_room_01/45,0.1494,2.77,high
+coffee,39,10228,10489,291,Standing:65 > Walking:76 > Fall Down:36 > Lying Down:85,le2i/coffee_room_01/46,coffee_room_01,0,290,0.12,le2i/coffee_room_01/46,0.12,2.18,high
+coffee,40,10490,11188,728,Sitting:24 > Standing:26 > Walking:74 > Standing:279 > Walking:195 > Fall Down:52 > Lying Down:49,le2i/coffee_room_01/47,coffee_room_01,0,727,0.1526,le2i/coffee_room_01/47,0.1526,3.46,high
+coffee,41,11189,11937,778,Sitting:7 > Stand up:27 > Walking:74 > Standing:85 > Sit down:57 > Sitting:103 > Stand up:49 > Standing:8 > Walking:84 > Standing:115 > Walking:25 > Fall Down:36 > Lying Down:79,le2i/coffee_room_01/48,coffee_room_01,0,777,0.0816,le2i/coffee_room_01/48,0.0816,6.82,high
+coffee,42,11938,12399,491,Walking:277 > Standing:65 > Walking:60 > Fall Down:45 > Lying Down:15,le2i/coffee_room_02/49,coffee_room_02,0,490,0.1391,le2i/coffee_room_02/49,0.1391,3.16,high
+coffee,43,12400,12550,180,Walking:109 > Fall Down:32 > Lying Down:10,le2i/coffee_room_01/5,coffee_room_01,0,179,0.2817,le2i/coffee_room_01/5,0.2817,1.62,high
+coffee,44,12551,14469,1948,Walking:69 > Standing:78 > Walking:134 > Standing:170 > Walking:54 > Standing:853 > Walking:386 > Fall Down:79 > Lying Down:96,le2i/coffee_room_02/50,coffee_room_02,5,1952,0.1855,le2i/coffee_room_02/50,0.1855,inf,high
+coffee,45,14470,14631,191,Walking:33 > Fall Down:59 > Lying Down:70,le2i/coffee_room_02/51,coffee_room_02,11,201,0.1741,le2i/coffee_room_02/51,0.1741,2.79,high
+coffee,46,14632,14816,214,Sitting:21 > Stand up:26 > Walking:22 > Fall Down:30 > Lying Down:86,le2i/coffee_room_02/52,coffee_room_02,0,213,0.175,le2i/coffee_room_02/52,0.175,2.07,high
+coffee,47,14817,15142,355,Walking:78 > Standing:104 > Walking:31 > Fall Down:36 > Lying Down:77,le2i/coffee_room_02/53,coffee_room_02,26,380,0.193,le2i/coffee_room_02/53,0.193,2.46,high
+coffee,48,15143,15286,173,Walking:126 > Fall Down:18,le2i/coffee_room_02/54,coffee_room_02,12,184,0.2853,le2i/coffee_room_02/54,0.2853,1.61,high
+coffee,49,15287,15579,322,Sitting:137 > Stand up:38 > Walking:20 > Fall Down:41 > Lying Down:57,le2i/coffee_room_02/55,coffee_room_02,0,321,0.1249,le2i/coffee_room_02/55,0.1249,3.66,high
+coffee,50,15580,15980,430,Walking:55 > Sit down:32 > Sitting:138 > Stand up:38 > Standing:18 > Fall Down:36 > Lying Down:84,le2i/coffee_room_02/56,coffee_room_02,0,429,0.1039,le2i/coffee_room_02/56,0.1039,4.79,high
+coffee,51,15981,16513,562,Sitting:152 > Stand up:68 > Walking:54 > Standing:63 > Walking:70 > Standing:16 > Fall Down:56 > Lying Down:54,le2i/coffee_room_02/57,coffee_room_02,0,561,0.1722,le2i/coffee_room_02/57,0.1722,3.14,high
+coffee,52,16514,16794,310,Standing:13 > Walking:139 > Fall Down:52 > Lying Down:77,le2i/coffee_room_02/58,coffee_room_02,0,309,0.2182,le2i/coffee_room_02/58,0.2182,2.06,high
+coffee,53,16795,17015,250,Standing:14 > Walking:96 > Fall Down:37 > Lying Down:74,le2i/coffee_room_02/59,coffee_room_02,1,250,0.2584,le2i/coffee_room_02/59,0.2584,1.89,high
+coffee,54,17016,17224,238,Walking:109 > Fall Down:46 > Lying Down:54,le2i/coffee_room_01/6,coffee_room_01,0,237,0.2968,le2i/coffee_room_01/6,0.2968,1.75,high
+coffee,55,17225,17469,274,Walking:107 > Fall Down:39 > Lying Down:99,le2i/coffee_room_02/60,coffee_room_02,1,274,0.2651,le2i/coffee_room_02/60,0.2651,2.09,high
+coffee,56,17470,18732,1292,Walking:67 > Standing:247 > Sit down:51 > Sitting:296 > Stand up:35 > Walking:48 > Standing:93 > Walking:41 > Standing:49 > Walking:11 > Sit down:50 > Sitting:275,le2i/coffee_room_02/61,coffee_room_02,21,1312,0.104,le2i/coffee_room_02/61,0.104,5.41,high
+coffee,57,18733,18984,281,Walking:65 > Sit down:29 > Sitting:46 > Stand up:15 > Fall Down:32 > Lying Down:65,le2i/coffee_room_02/62,coffee_room_02,0,280,0.1553,le2i/coffee_room_02/62,0.1553,2.87,high
+coffee,58,18985,19550,595,Walking:489 > Standing:76 > Walking:1,le2i/coffee_room_02/63,coffee_room_02,0,594,0.1496,le2i/coffee_room_02/63,0.1496,2.95,high
+coffee,59,19551,19732,211,Standing:14 > Walking:100 > Fall Down:38 > Lying Down:30,le2i/coffee_room_02/64,coffee_room_02,0,210,0.1028,le2i/coffee_room_02/64,0.1028,3.33,high
+coffee,60,19733,20413,710,Standing:52 > Walking:31 > Standing:67 > Walking:22 > Standing:134 > Walking:79 > Standing:50 > Walking:62 > Standing:72 > Walking:112,le2i/coffee_room_02/65,coffee_room_02,0,709,0.1059,le2i/coffee_room_02/65,0.1059,4.5,high
+coffee,61,20414,20681,297,Walking:70 > Standing:102 > Walking:96,le2i/coffee_room_02/66,coffee_room_02,0,296,0.1763,le2i/coffee_room_02/66,0.1763,2.17,high
+coffee,62,20682,20966,314,Walking:73 > Standing:85 > Walking:127,le2i/coffee_room_02/67,coffee_room_02,15,328,0.2363,le2i/coffee_room_02/67,0.2363,1.57,high
+coffee,63,20967,21030,93,Standing:13 > Walking:51,le2i/coffee_room_02/68,coffee_room_02,0,92,0.1903,le2i/coffee_room_02/68,0.1903,1.72,high
+coffee,64,21031,22475,1474,Walking:62 > Standing:188 > Walking:91 > Sit down:52 > Sitting:181 > Stand up:27 > Walking:97 > Standing:32 > Walking:182 > Standing:75 > Walking:31 > Sit down:31 > Sitting:84 > Stand up:30 > Walking:77 > Sit down:42 > Sitting:163,le2i/coffee_room_02/68,coffee_room_02,122,1595,0.2769,le2i/coffee_room_02/68,0.2769,2.15,high
+coffee,65,22476,23728,1282,Walking:170 > Standing:71 > Walking:97 > Standing:82 > Walking:97 > Standing:34 > Walking:445 > Standing:120 > Walking:93 > Standing:44,le2i/coffee_room_02/69,coffee_room_02,0,1281,0.1865,le2i/coffee_room_02/69,0.1865,3.17,high
+coffee,66,23729,23872,173,Walking:79 > Fall Down:28 > Lying Down:37,le2i/coffee_room_01/7,coffee_room_01,0,172,0.2028,le2i/coffee_room_01/7,0.2028,2.03,high
+coffee,67,23873,24046,203,Sitting:18 > Stand up:40 > Standing:23 > Walking:65 > Standing:23 > Walking:5,le2i/coffee_room_02/70,coffee_room_02,0,202,0.242,le2i/coffee_room_02/70,0.242,1.67,high
+coffee,68,24047,24536,519,Walking:94 > Standing:58 > Walking:75 > Standing:95 > Walking:61 > Standing:23 > Sit down:33 > Sitting:51,le2i/coffee_room_02/70,coffee_room_02,319,837,0.1126,le2i/coffee_room_02/70,0.1126,3.92,high
+coffee,69,24537,24762,255,Walking:52 > Standing:76 > Walking:8 > Fall Down:25 > Lying Down:65,le2i/coffee_room_01/8,coffee_room_01,1,255,0.3292,le2i/coffee_room_01/8,0.3292,1.5,high
+coffee,70,24763,24938,205,Sitting:5 > Stand up:37 > Walking:31 > Fall Down:40 > Lying Down:63,le2i/coffee_room_01/9,coffee_room_01,0,204,0.2321,le2i/coffee_room_01/9,0.2321,2.16,high
+home,0,0,233,263,Sitting:30 > Stand up:63 > Walking:28 > Fall Down:35 > Lying Down:78,le2i/home_01/1,home_01,0,262,0.1789,le2i/home_01/1,0.1789,2.26,high
+home,1,234,301,97,Walking:68,le2i/home_01/1,home_01,0,96,0.4322,le2i/home_01/8,0.2323,1.05,low
+home,2,302,390,118,Stand up:35 > Walking:54,le2i/home_01/10,home_01,190,307,0.3412,le2i/home_01/10,0.3412,1.42,high
+home,3,391,441,80,Walking:51,le2i/home_01/11,home_01,50,129,0.1768,le2i/home_01/11,0.1768,1.22,high
+home,4,442,505,93,Stand up:15 > Walking:49,le2i/home_01/11,home_01,212,304,0.3405,le2i/home_01/11,0.3405,1.2,high
+home,5,506,685,209,Walking:124 > Fall Down:24 > Lying Down:32,le2i/home_01/16,home_01,23,231,0.7621,le2i/coffee_room_01/24,0.4295,1.01,low
+home,6,686,831,175,Walking:116 > Fall Down:30,le2i/home_01/16,home_01,51,225,0.6442,le2i/lecture_room/25,0.3573,1.02,low
+home,7,832,986,184,Walking:68 > Fall Down:20 > Lying Down:67,le2i/home_01/16,home_01,43,226,0.8497,le2i/coffee_room_01/46,0.5243,1.04,low
+home,8,987,1116,159,Walking:70 > Fall Down:36 > Lying Down:24,le2i/home_01/16,home_01,63,221,0.6884,le2i/home_02/35,0.4335,1.04,low
+home,9,1117,1271,184,Sitting:71 > Stand up:67 > Fall Down:17,le2i/home_01/16,home_01,3,186,0.2734,le2i/home_01/16,0.2734,1.44,high
+home,10,1272,1461,219,Sitting:81 > Fall Down:74 > Lying Down:35,le2i/home_01/16,home_01,15,233,0.4838,le2i/home_01/16,0.4838,1.01,medium
+home,11,1462,1516,84,Sitting:54 > Stand up:1,le2i/home_01/18,home_01,9,92,0.1333,le2i/home_01/18,0.1333,1.34,high
+home,12,1517,1603,116,Stand up:6 > Fall Down:40 > Lying Down:41,le2i/home_01/18,home_01,99,214,0.4935,le2i/coffee_room_02/62,0.4133,1.12,low
+home,13,1604,1762,188,Sitting:51 > Stand up:51 > Fall Down:52 > Lying Down:5,le2i/home_01/19,home_01,0,187,0.3067,le2i/home_01/19,0.3067,1.05,medium
+home,14,1763,1970,237,Sitting:21 > Stand up:54 > Walking:26 > Fall Down:25 > Lying Down:82,le2i/home_01/2,home_01,0,236,0.4639,le2i/home_01/2,0.4639,1.0,medium
+home,15,1971,2155,214,Sitting:48 > Stand up:65 > Fall Down:49 > Lying Down:23,le2i/home_01/20,home_01,0,213,0.2249,le2i/home_01/21,0.2249,1.0,medium
+home,16,2156,2340,214,Sitting:65 > Stand up:52 > Fall Down:31 > Lying Down:37,le2i/home_01/20,home_01,0,213,0.224,le2i/home_01/21,0.224,1.0,medium
+home,17,2341,2550,239,Sitting:52 > Stand up:66 > Fall Down:53 > Lying Down:39,le2i/home_01/22,home_01,1,239,0.2793,le2i/home_01/22,0.2793,1.5,high
+home,18,2551,2696,175,Sitting:78 > Stand up:49 > Fall Down:19,le2i/home_01/23,home_01,1,175,0.1971,le2i/home_01/23,0.1971,1.75,high
+home,19,2697,2858,191,Sitting:39 > Stand up:64 > Fall Down:38 > Lying Down:21,le2i/home_01/24,home_01,0,190,0.2293,le2i/home_01/24,0.2293,1.51,high
+home,20,2859,3040,211,Sitting:62 > Stand up:80 > Fall Down:34 > Lying Down:6,le2i/home_01/25,home_01,1,211,0.2771,le2i/home_01/25,0.2771,1.41,high
+home,21,3041,3226,215,Sitting:46 > Stand up:49 > Walking:11 > Fall Down:32 > Lying Down:48,le2i/home_01/26,home_01,0,214,0.22,le2i/home_01/26,0.22,1.59,high
+home,22,3227,3436,239,Sitting:60 > Stand up:45 > Walking:36 > Fall Down:45 > Lying Down:24,le2i/home_01/27,home_01,0,238,0.2155,le2i/home_01/27,0.2155,1.69,high
+home,23,3437,3617,210,Sitting:59 > Stand up:37 > Walking:47 > Fall Down:38,le2i/home_01/28,home_01,2,211,0.2836,le2i/home_01/28,0.2836,1.17,medium
+home,24,3618,3857,269,Sitting:57 > Stand up:47 > Walking:35 > Fall Down:42 > Lying Down:59,le2i/home_01/29,home_01,1,269,0.3591,le2i/home_01/29,0.3591,1.33,high
+home,25,3858,4065,237,Sitting:23 > Stand up:45 > Walking:31 > Fall Down:40 > Lying Down:69,le2i/home_01/3,home_01,0,236,0.4065,le2i/home_01/3,0.4065,1.0,medium
+home,26,4066,4227,191,Sitting:13 > Stand up:48 > Walking:30 > Fall Down:37 > Lying Down:34,le2i/home_01/30,home_01,0,190,0.3253,le2i/home_01/30,0.3253,1.17,medium
+home,27,4228,4500,302,Sitting:85 > Stand up:46 > Walking:35 > Fall Down:43 > Lying Down:64,le2i/home_01/30,home_01,-1,300,inf,le2i/home_02/58,0.444,1.01,low
+home,28,4501,4661,190,Sitting:20 > Stand up:39 > Fall Down:43 > Lying Down:59,le2i/home_02/32,home_02,1,190,0.2418,le2i/home_02/32,0.2418,1.75,high
+home,29,4662,4816,184,Sitting:1 > Stand up:49 > Walking:45 > Fall Down:30 > Lying Down:30,le2i/home_02/34,home_02,18,201,0.4266,le2i/home_02/34,0.4266,1.1,medium
+home,30,4817,5008,221,Sitting:43 > Stand up:38 > Walking:45 > Fall Down:32 > Lying Down:34,le2i/home_02/37,home_02,1,221,0.6669,le2i/lecture_room/21,0.46,1.03,low
+home,31,5009,5128,149,Sitting:22 > Stand up:28 > Walking:52 > Fall Down:18,le2i/home_02/37,home_02,0,148,0.4294,le2i/home_02/35,0.2792,1.12,low
+home,32,5129,5160,61,Walking:32,le2i/home_02/37,home_02,72,132,0.4213,le2i/home_02/36,0.27,1.02,low
+home,33,5161,5370,239,Sitting:15 > Stand up:65 > Walking:21 > Fall Down:33 > Lying Down:76,le2i/home_02/37,home_02,0,238,0.2024,le2i/home_02/37,0.2024,1.25,high
+home,34,5371,5532,191,Standing:33 > Walking:47 > Sit down:40 > Sitting:42,le2i/home_02/38,home_02,0,190,0.1428,le2i/home_02/38,0.1428,3.06,high
+home,35,5533,5694,191,Stand up:24 > Walking:81 > Sit down:51 > Sitting:6,le2i/home_02/39,home_02,0,190,0.1218,le2i/home_02/39,0.1218,2.45,high
+home,36,5695,5904,239,Sitting:29 > Stand up:57 > Walking:40 > Fall Down:35 > Lying Down:49,le2i/home_01/4,home_01,0,238,0.4919,le2i/lecture_room/13,0.4173,1.08,low
+home,37,5905,6109,234,Sitting:59 > Stand up:33 > Walking:73 > Sit down:28 > Sitting:12,le2i/home_02/40,home_02,5,238,0.2403,le2i/home_02/40,0.2403,1.19,medium
+home,38,6110,6316,236,Sitting:34 > Stand up:37 > Walking:72 > Sit down:36 > Sitting:28,le2i/home_02/40,home_02,4,239,0.6819,le2i/home_02/47,0.41,1.01,low
+home,39,6317,6454,167,Standing:29 > Walking:36 > Sit down:32 > Sitting:41,le2i/home_02/42,home_02,0,166,0.1879,le2i/home_02/42,0.1879,2.09,high
+home,40,6455,6592,167,Standing:16 > Walking:54 > Sit down:68,le2i/home_02/43,home_02,0,166,0.0783,le2i/home_02/43,0.0783,3.09,high
+home,41,6593,6876,313,Sitting:14 > Stand up:52 > Walking:137 > Sit down:58 > Sitting:23,le2i/home_02/44,home_02,0,312,0.1307,le2i/home_02/44,0.1307,3.22,high
+home,42,6877,7062,215,Sitting:1 > Stand up:27 > Walking:92 > Sit down:43 > Sitting:23,le2i/home_02/45,home_02,0,214,0.1185,le2i/home_02/45,0.1185,3.1,high
+home,43,7063,7296,263,Sitting:10 > Stand up:52 > Walking:95 > Sit down:59 > Sitting:18,le2i/home_02/46,home_02,0,262,0.2432,le2i/home_02/46,0.2432,1.66,high
+home,44,7297,7554,287,Sitting:36 > Stand up:40 > Walking:136 > Sit down:46,le2i/home_02/47,home_02,0,286,0.1881,le2i/home_02/47,0.1881,2.01,high
+home,45,7555,7759,234,Sitting:23 > Stand up:40 > Walking:106 > Sit down:36,le2i/home_02/49,home_02,28,261,0.5226,le2i/home_02/44,0.3202,1.03,low
+home,46,7760,8039,309,Sitting:75 > Stand up:45 > Walking:106 > Sit down:54,le2i/home_02/49,home_02,1,309,0.1828,le2i/home_02/50,0.1828,1.0,medium
+home,47,8040,8127,117,Sitting:54 > Stand up:33 > Fall Down:1,le2i/home_01/5,home_01,1,117,0.3646,le2i/home_01/5,0.3646,1.23,high
+home,48,8128,8404,306,Sitting:87 > Stand up:38 > Walking:104 > Sit down:48,le2i/home_02/50,home_02,5,310,0.1939,le2i/home_02/50,0.1939,1.0,medium
+home,49,8405,8613,238,Sitting:2 > Stand up:58 > Walking:99 > Sit down:50,le2i/home_02/51,home_02,6,243,0.2961,le2i/home_02/51,0.2961,1.12,medium
+home,50,8614,8799,215,Sitting:33 > Stand up:29 > Walking:57 > Sit down:25 > Sitting:42,le2i/home_02/52,home_02,0,214,0.2054,le2i/home_02/52,0.2054,1.8,high
+home,51,8800,8983,213,Sitting:8 > Stand up:30 > Walking:56 > Sit down:34 > Sitting:56,le2i/home_02/53,home_02,0,212,0.3148,le2i/home_02/53,0.3148,1.23,high
+home,52,8984,9169,215,Sitting:30 > Stand up:27 > Walking:66 > Sit down:41 > Sitting:22,le2i/home_02/54,home_02,1,215,0.166,le2i/home_02/54,0.166,2.11,high
+home,53,9170,9355,215,Sitting:27 > Stand up:32 > Walking:60 > Sit down:41 > Sitting:26,le2i/home_02/55,home_02,0,214,0.2026,le2i/home_02/55,0.2026,1.59,high
+home,54,9356,9685,359,Sitting:87 > Stand up:29 > Walking:143 > Sit down:42 > Sitting:29,le2i/home_02/56,home_02,0,358,0.1531,le2i/home_02/56,0.1531,2.45,high
+home,55,9686,9895,239,Sitting:23 > Stand up:43 > Walking:81 > Sit down:35 > Sitting:28,le2i/home_02/57,home_02,0,238,0.2283,le2i/home_02/57,0.2283,1.67,high
+home,56,9896,10149,283,Sitting:135 > Stand up:52 > Walking:67,le2i/home_02/58,home_02,0,282,0.1667,le2i/home_02/58,0.1667,2.13,high
+home,57,10150,10334,214,Sitting:12 > Stand up:41 > Walking:72 > Sit down:52 > Sitting:8,le2i/home_02/59,home_02,0,213,0.2123,le2i/home_02/59,0.2123,1.49,high
+home,58,10335,10489,184,Sitting:36 > Stand up:51 > Fall Down:42 > Lying Down:26,le2i/home_01/6,home_01,1,184,0.2877,le2i/home_01/6,0.2877,1.68,high
+home,59,10490,10770,310,Sitting:28 > Stand up:46 > Walking:110 > Sit down:46 > Sitting:51,le2i/home_02/60,home_02,2,311,0.1951,le2i/home_02/60,0.1951,2.07,high
+home,60,10771,10956,215,Sitting:12 > Stand up:29 > Walking:48 > Sit down:32 > Fall Down:34 > Lying Down:31,le2i/home_01/7,home_01,0,214,0.2899,le2i/home_01/7,0.2899,1.79,high
+home,61,10957,11195,268,Walking:93 > Fall Down:35 > Lying Down:34 > Stand up:41 > Walking:36,le2i/home_01/8,home_01,2,269,0.307,le2i/home_01/8,0.307,1.64,high
+home,62,11196,11436,270,Standing:21 > Walking:83 > Fall Down:33 > Lying Down:22 > Stand up:54 > Walking:28,le2i/home_01/8,home_01,0,269,0.4347,le2i/home_01/8,0.4347,1.26,high

@@ -1,0 +1,34 @@
+# Legacy baseline with the ResNet-101 pose model at 320x256: the extractor that matches the legacy
+# checkpoint's Le2i training features (recovery/DIAG_004_REPORT.md). Diagnostic only, not a new default.
+# Everything else is identical to legacy_baseline.yaml.
+name: legacy_r101
+device: cpu
+models_dir: models          # relative to the repository root; populate with scripts/setup_models.py
+
+frame:
+  size: 384                 # letterbox size for detector and pose input
+  border: replicate         # deployed web app; upstream used "constant"
+
+detector:                   # Tiny-YOLOv3 one-class (inherited)
+  cfg_file: yolo-tiny-onecls/yolov3-tiny-onecls.cfg
+  weights: yolo-tiny-onecls/best-model.pth
+  conf_threshold: 0.45
+  nms_threshold: 0.2
+  expand_bbox: 10
+
+pose:                       # AlphaPose SPPE FastPose (inherited)
+  backbone: resnet101
+  weights: sppe/fast_res101_320x256.pth
+  input_height: 320
+  input_width: 256
+
+tracker:                    # Deep SORT-style IoU + Kalman tracker (inherited)
+  max_age: 1                # legacy web app value (single person); upstream CLI used 30
+  n_init: 3
+  max_iou_distance: 0.7
+
+classifier:                 # two-stream ST-GCN (inherited architecture, legacy 9-class retrain)
+  weights: tsstg/tsstg-9class-legacy.pth
+  window: 30
+  class_names: [Standing, Walking, Sitting, Lying Down, Stand up, Sit down, Fall Down,
+                Standing one foot, bend]

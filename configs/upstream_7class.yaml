@@ -1,0 +1,33 @@
+# Publicly runnable variant: same pipeline as legacy_baseline.yaml but with the upstream author's
+# 7-class ST-GCN (the 9-class legacy model behind the reported results is private).
+# NOT evaluated in reports/; results with it will differ.
+name: upstream_7class
+device: cpu
+models_dir: models          # relative to the repository root; populate with scripts/setup_models.py
+
+frame:
+  size: 384                 # letterbox size for detector and pose input
+  border: replicate         # deployed web app; upstream used "constant"
+
+detector:                   # Tiny-YOLOv3 one-class (inherited)
+  cfg_file: yolo-tiny-onecls/yolov3-tiny-onecls.cfg
+  weights: yolo-tiny-onecls/best-model.pth
+  conf_threshold: 0.45
+  nms_threshold: 0.2
+  expand_bbox: 10
+
+pose:                       # AlphaPose SPPE FastPose (inherited)
+  backbone: resnet50
+  weights: sppe/fast_res50_256x192.pth
+  input_height: 224
+  input_width: 160
+
+tracker:                    # Deep SORT-style IoU + Kalman tracker (inherited)
+  max_age: 1                # legacy web app value (single person); upstream CLI used 30
+  n_init: 3
+  max_iou_distance: 0.7
+
+classifier:                 # two-stream ST-GCN, upstream 7-class release (not the model behind the reported results)
+  weights: tsstg/tsstg-7class-upstream.pth
+  window: 30
+  class_names: [Standing, Walking, Sitting, Lying Down, Stand up, Sit down, Fall Down]

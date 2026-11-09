@@ -1,0 +1,142 @@
+{
+ "protocol": "Blind: videos chosen with numpy seeds 7 and 8 among annotated Coffee/Home videos not previously viewed (excluding duplicates and one video whose detector output had been seen); readings written to disk before official labels were opened.",
+ "blind_files_sha256": {
+  "calib_blind.json": "62c6bd0b4db9827118ef1dac626baf1c1933a402603cf16b77e4d60f05007e45",
+  "calib2_blind.json": "6e013629295daab6c61ead66bee82f793ad5c3cc2eaaade3809377c16d942f5f"
+ },
+ "end_convention_used_in_blind_readings": "first ground contact (later changed to 'motion stopped' to match official Le2i)",
+ "videos": [
+  {
+   "video_id": "le2i/home_01/17",
+   "official_has_fall": "yes",
+   "official_event": [
+    153,
+    168
+   ],
+   "blind_has_fall": "uncertain",
+   "blind_event": [
+    152,
+    172
+   ],
+   "blind_confidence": "low",
+   "start_error_frames": -1,
+   "end_error_frames": 4
+  },
+  {
+   "video_id": "le2i/home_01/26",
+   "official_has_fall": "yes",
+   "official_event": [
+    129,
+    140
+   ],
+   "blind_has_fall": "yes",
+   "blind_event": [
+    126,
+    140
+   ],
+   "blind_confidence": "high",
+   "start_error_frames": -3,
+   "end_error_frames": 0
+  },
+  {
+   "video_id": "le2i/home_02/47",
+   "official_has_fall": "no",
+   "official_event": null,
+   "blind_has_fall": "no",
+   "blind_event": null,
+   "blind_confidence": "medium",
+   "start_error_frames": null,
+   "end_error_frames": null
+  },
+  {
+   "video_id": "le2i/home_02/51",
+   "official_has_fall": "no",
+   "official_event": null,
+   "blind_has_fall": "no",
+   "blind_event": null,
+   "blind_confidence": "medium",
+   "start_error_frames": null,
+   "end_error_frames": null
+  },
+  {
+   "video_id": "le2i/coffee_room_01/20",
+   "official_has_fall": "yes",
+   "official_event": [
+    329,
+    374
+   ],
+   "blind_has_fall": "yes",
+   "blind_event": [
+    330,
+    345
+   ],
+   "blind_confidence": "high",
+   "start_error_frames": 1,
+   "end_error_frames": -29
+  },
+  {
+   "video_id": "le2i/coffee_room_01/23",
+   "official_has_fall": "yes",
+   "official_event": [
+    208,
+    243
+   ],
+   "blind_has_fall": "yes",
+   "blind_event": [
+    204,
+    219
+   ],
+   "blind_confidence": "high",
+   "start_error_frames": -4,
+   "end_error_frames": -24
+  },
+  {
+   "video_id": "le2i/coffee_room_01/3",
+   "official_has_fall": "yes",
+   "official_event": [
+    222,
+    260
+   ],
+   "blind_has_fall": "yes",
+   "blind_event": [
+    225,
+    243
+   ],
+   "blind_confidence": "medium",
+   "start_error_frames": 3,
+   "end_error_frames": -17
+  },
+  {
+   "video_id": "le2i/coffee_room_01/30",
+   "official_has_fall": "yes",
+   "official_event": [
+    79,
+    103
+   ],
+   "blind_has_fall": "yes",
+   "blind_event": [
+    78,
+    92
+   ],
+   "blind_confidence": "high",
+   "start_error_frames": -1,
+   "end_error_frames": -11
+  },
+  {
+   "video_id": "le2i/coffee_room_01/7",
+   "official_has_fall": "yes",
+   "official_event": [
+    95,
+    125
+   ],
+   "blind_has_fall": "yes",
+   "blind_event": [
+    102,
+    116
+   ],
+   "blind_confidence": "medium",
+   "start_error_frames": 7,
+   "end_error_frames": -9
+  }
+ ]
+}

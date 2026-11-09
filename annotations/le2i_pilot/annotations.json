@@ -1,0 +1,297 @@
+{
+ "schema": "fall-events/v1",
+ "frame_index": "0-based, sequential cv2 decode order (same numbering as fall_detection extraction)",
+ "videos": {
+  "le2i/lecture_room/2": {
+   "has_fall": "yes",
+   "events": [
+    {
+     "start": 375,
+     "end": 405
+    }
+   ],
+   "note": "",
+   "n_frames": 506,
+   "fps": 25.0,
+   "video_sha256": "227cf8216a57a5870448dd824ebf03421237adfdb9240884cd0b64d61e9ca213",
+   "annotator": "jenna",
+   "updated": "2026-11-09T10:06:19",
+   "review": "accepted",
+   "not_visible": [
+    [
+     0,
+     82
+    ]
+   ],
+   "not_visible_source": "proposal (approximate), shown to reviewer",
+   "proposal": {
+    "has_fall": "yes",
+    "events": [
+     {
+      "start": 375,
+      "end": 405
+     }
+    ],
+    "confidence": "medium"
+   }
+  },
+  "le2i/lecture_room/11": {
+   "has_fall": "yes",
+   "events": [
+    {
+     "start": 241,
+     "end": 283
+    }
+   ],
+   "note": "",
+   "n_frames": 363,
+   "fps": 25.0,
+   "video_sha256": "37e88aaede132b9cb009112263e79cc491859369b9aa3d2ee075437370dd0baa",
+   "annotator": "jenna",
+   "updated": "2026-11-09T10:06:22",
+   "review": "accepted",
+   "not_visible": [
+    [
+     0,
+     100
+    ]
+   ],
+   "not_visible_source": "proposal (approximate), shown to reviewer",
+   "proposal": {
+    "has_fall": "yes",
+    "events": [
+     {
+      "start": 241,
+      "end": 283
+     }
+    ],
+    "confidence": "medium"
+   }
+  },
+  "le2i/lecture_room/26": {
+   "has_fall": "no",
+   "events": [],
+   "note": "",
+   "n_frames": 1429,
+   "fps": 25.0,
+   "video_sha256": "b575fe6ec9dfe8f47f2b3f61a0219b087d4a0196dd984f5d0c187b6ed479f2cf",
+   "annotator": "jenna",
+   "updated": "2026-11-09T10:06:58",
+   "review": "accepted",
+   "not_visible": [
+    [
+     0,
+     70
+    ],
+    [
+     955,
+     1185
+    ]
+   ],
+   "not_visible_source": "proposal (approximate), shown to reviewer",
+   "proposal": {
+    "has_fall": "no",
+    "events": [],
+    "confidence": "medium"
+   }
+  },
+  "le2i/lecture_room/10": {
+   "has_fall": "yes",
+   "events": [
+    {
+     "start": 341,
+     "end": 380
+    }
+   ],
+   "note": "",
+   "n_frames": 493,
+   "fps": 25.0,
+   "video_sha256": "dd947b3cb08483b0d499e2f81f54d29388bea2306b1ceac4e12e5e37fcb2a1ce",
+   "annotator": "jenna",
+   "updated": "2026-11-09T10:07:00",
+   "review": "accepted",
+   "not_visible": [
+    [
+     0,
+     59
+    ]
+   ],
+   "not_visible_source": "proposal (approximate), shown to reviewer",
+   "proposal": {
+    "has_fall": "yes",
+    "events": [
+     {
+      "start": 341,
+      "end": 380
+     }
+    ],
+    "confidence": "high"
+   }
+  },
+  "le2i/lecture_room/23": {
+   "has_fall": "no",
+   "events": [],
+   "note": "",
+   "n_frames": 675,
+   "fps": 25.0,
+   "video_sha256": "5bd373aa1df83aed1bd1ba78893bd5526d12b615dc5656c33979573c131efe5c",
+   "annotator": "jenna",
+   "updated": "2026-11-09T10:07:03",
+   "review": "accepted",
+   "not_visible": [
+    [
+     0,
+     85
+    ],
+    [
+     540,
+     674
+    ]
+   ],
+   "not_visible_source": "proposal (approximate), shown to reviewer",
+   "proposal": {
+    "has_fall": "no",
+    "events": [],
+    "confidence": "high"
+   }
+  },
+  "le2i/office/3": {
+   "has_fall": "yes",
+   "events": [
+    {
+     "start": 345,
+     "end": 375
+    }
+   ],
+   "note": "",
+   "n_frames": 467,
+   "fps": 25.0,
+   "video_sha256": "4a2f7677c75fb08d43cff94eb7ff0beea54f70cf8113cc5c5aea828e631a5879",
+   "annotator": "jenna",
+   "updated": "2026-11-09T10:07:05",
+   "review": "accepted",
+   "not_visible": [],
+   "not_visible_source": "none",
+   "proposal": {
+    "has_fall": "yes",
+    "events": [
+     {
+      "start": 345,
+      "end": 375
+     }
+    ],
+    "confidence": "high"
+   }
+  },
+  "le2i/office/9": {
+   "has_fall": "yes",
+   "events": [
+    {
+     "start": 64,
+     "end": 100
+    }
+   ],
+   "note": "",
+   "n_frames": 206,
+   "fps": 25.0,
+   "video_sha256": "2a60e5bdfa4a812c95d3a3f91c11bc8f4683a1d7c2d3de4108ae20be5d70d9b5",
+   "annotator": "jenna",
+   "updated": "2026-11-09T10:07:06",
+   "review": "accepted",
+   "not_visible": [
+    [
+     0,
+     35
+    ]
+   ],
+   "not_visible_source": "proposal (approximate), shown to reviewer",
+   "proposal": {
+    "has_fall": "yes",
+    "events": [
+     {
+      "start": 64,
+      "end": 100
+     }
+    ],
+    "confidence": "high"
+   }
+  },
+  "le2i/office/21": {
+   "has_fall": "no",
+   "events": [],
+   "note": "",
+   "n_frames": 428,
+   "fps": 25.0,
+   "video_sha256": "2a138696026e57fa9726b660fefeb8fcde2fc64be6cb20262a6b16de5873d312",
+   "annotator": "jenna",
+   "updated": "2026-11-09T10:07:08",
+   "review": "accepted",
+   "not_visible": [
+    [
+     0,
+     10
+    ],
+    [
+     395,
+     427
+    ]
+   ],
+   "not_visible_source": "proposal (approximate), shown to reviewer",
+   "proposal": {
+    "has_fall": "no",
+    "events": [],
+    "confidence": "high"
+   }
+  },
+  "le2i/office/29": {
+   "has_fall": "no",
+   "events": [],
+   "note": "",
+   "n_frames": 1221,
+   "fps": 25.0,
+   "video_sha256": "931b9f398a15a8da1852299617567cefcc116d415f1557ac5725f53acfecac25",
+   "annotator": "jenna",
+   "updated": "2026-11-09T10:07:13",
+   "review": "accepted",
+   "not_visible": [
+    [
+     1140,
+     1220
+    ]
+   ],
+   "not_visible_source": "proposal (approximate), shown to reviewer",
+   "proposal": {
+    "has_fall": "no",
+    "events": [],
+    "confidence": "high"
+   }
+  },
+  "le2i/office/30": {
+   "has_fall": "no",
+   "events": [],
+   "note": "",
+   "n_frames": 1247,
+   "fps": 25.0,
+   "video_sha256": "62b2967fee40e228fbb1091aeb52b772aa9841560bc95c3e29d700f6c3605ded",
+   "annotator": "jenna",
+   "updated": "2026-11-09T10:07:18",
+   "review": "accepted",
+   "not_visible": [
+    [
+     0,
+     145
+    ],
+    [
+     1120,
+     1246
+    ]
+   ],
+   "not_visible_source": "proposal (approximate), shown to reviewer",
+   "proposal": {
+    "has_fall": "no",
+    "events": [],
+    "confidence": "high"
+   }
+  }
+ }
+}

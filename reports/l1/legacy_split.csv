@@ -1,0 +1,191 @@
+video_id,scene,legacy_status,reason,per_mapping,segments
+le2i/coffee_room_01/1,coffee_room_01,unseen,precedes the first segment's video in builder order,unseen|unseen,
+le2i/coffee_room_01/2,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:10(high)
+le2i/coffee_room_01/3,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:21(high)
+le2i/coffee_room_01/4,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:32(high)
+le2i/coffee_room_01/5,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:43(high)
+le2i/coffee_room_01/6,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:54(high)
+le2i/coffee_room_01/7,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:66(high)
+le2i/coffee_room_01/8,coffee_room_01,seen,high-confidence segment,seen|probably_seen,coffee:69(high)
+le2i/coffee_room_01/9,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:70(high)
+le2i/coffee_room_01/10,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:0(high)
+le2i/coffee_room_01/11,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:1(high)
+le2i/coffee_room_01/12,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:2(high)
+le2i/coffee_room_01/13,coffee_room_01,seen,high-confidence segment,seen|probably_seen,coffee:3(high)
+le2i/coffee_room_01/14,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:4(high)
+le2i/coffee_room_01/15,coffee_room_01,seen,high-confidence segment,probably_seen|seen,coffee:5(high)
+le2i/coffee_room_01/16,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:6(high)
+le2i/coffee_room_01/17,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:7(high)
+le2i/coffee_room_01/18,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:8(high)
+le2i/coffee_room_01/19,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:9(high)
+le2i/coffee_room_01/20,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:11(high)
+le2i/coffee_room_01/21,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:12(high)
+le2i/coffee_room_01/22,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:13(high)
+le2i/coffee_room_01/23,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:14(high)
+le2i/coffee_room_01/24,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:15(high)
+le2i/coffee_room_01/25,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:16(high)
+le2i/coffee_room_01/26,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:17(high)
+le2i/coffee_room_01/27,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:18(high)
+le2i/coffee_room_01/28,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:19(high)
+le2i/coffee_room_01/29,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:20(high)
+le2i/coffee_room_01/30,coffee_room_01,seen,high-confidence segment,probably_seen|seen,coffee:22(high)
+le2i/coffee_room_01/31,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:23(high)
+le2i/coffee_room_01/32,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:24(high)
+le2i/coffee_room_01/33,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:25(high)
+le2i/coffee_room_01/34,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:26(high)
+le2i/coffee_room_01/35,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:27(high)
+le2i/coffee_room_01/36,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:28(high)
+le2i/coffee_room_01/37,coffee_room_01,seen,high-confidence segment,probably_seen|seen,coffee:29(high)
+le2i/coffee_room_01/38,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:30(high)
+le2i/coffee_room_01/39,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:31(high)
+le2i/coffee_room_01/40,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:33(high)
+le2i/coffee_room_01/41,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:34(high)
+le2i/coffee_room_01/42,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:35(high)
+le2i/coffee_room_01/43,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:36(high)
+le2i/coffee_room_01/44,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:37(high)
+le2i/coffee_room_01/45,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:38(high)
+le2i/coffee_room_01/46,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:39(high)
+le2i/coffee_room_01/47,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:40(high)
+le2i/coffee_room_01/48,coffee_room_01,seen,high-confidence segment,seen|seen,coffee:41(high)
+le2i/coffee_room_02/49,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:42(high)
+le2i/coffee_room_02/50,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:44(high)
+le2i/coffee_room_02/51,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:45(high)
+le2i/coffee_room_02/52,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:46(high)
+le2i/coffee_room_02/53,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:47(high)
+le2i/coffee_room_02/54,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:48(high)
+le2i/coffee_room_02/55,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:49(high)
+le2i/coffee_room_02/56,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:50(high)
+le2i/coffee_room_02/57,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:51(high)
+le2i/coffee_room_02/58,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:52(high)
+le2i/coffee_room_02/59,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:53(high)
+le2i/coffee_room_02/60,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:55(high)
+le2i/coffee_room_02/61,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:56(high)
+le2i/coffee_room_02/62,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:57(high)
+le2i/coffee_room_02/63,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:58(high)
+le2i/coffee_room_02/64,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:59(high)
+le2i/coffee_room_02/65,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:60(high)
+le2i/coffee_room_02/66,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:61(high)
+le2i/coffee_room_02/67,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:62(high)
+le2i/coffee_room_02/68,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:63(high);coffee:64(high)
+le2i/coffee_room_02/69,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:65(high)
+le2i/coffee_room_02/70,coffee_room_02,seen,high-confidence segment,seen|seen,coffee:67(high);coffee:68(high)
+le2i/home_01/1,home_01,seen,high-confidence segment,seen|seen,home:0(high);home:1(low)
+le2i/home_01/2,home_01,probably_seen,medium-confidence segment,probably_seen|uncertain,home:14(medium)
+le2i/home_01/3,home_01,probably_seen,medium-confidence segment,probably_seen|probably_seen,home:25(medium)
+le2i/home_01/4,home_01,seen,high-confidence segment,probably_seen|seen,home:36(high)
+le2i/home_01/5,home_01,seen,high-confidence segment,seen|seen,home:47(high)
+le2i/home_01/6,home_01,seen,high-confidence segment,seen|seen,home:58(high)
+le2i/home_01/7,home_01,seen,high-confidence segment,seen|seen,home:60(high)
+le2i/home_01/8,home_01,seen,high-confidence segment,seen|seen,home:61(high);home:62(high)
+le2i/home_01/9,home_01,uncertain,after the last anchor,uncertain|uncertain,
+le2i/home_01/10,home_01,seen,high-confidence segment,seen|seen,home:2(high)
+le2i/home_01/11,home_01,seen,high-confidence segment,seen|probably_seen,home:3(high);home:4(high)
+le2i/home_01/12,home_01,probably_seen,4 unresolved segments for 4 videos,probably_seen|probably_seen,
+le2i/home_01/13,home_01,probably_seen,4 unresolved segments for 4 videos,probably_seen|probably_seen,
+le2i/home_01/14,home_01,probably_seen,4 unresolved segments for 4 videos,probably_seen|probably_seen,
+le2i/home_01/15,home_01,probably_seen,4 unresolved segments for 4 videos,probably_seen|probably_seen,
+le2i/home_01/16,home_01,seen,high-confidence segment,seen|seen,home:5(low);home:6(low);home:7(low);home:8(low);home:9(high);home:10(medium)
+le2i/home_01/17,home_01,uncertain,0 unresolved segments for 1 videos,uncertain|uncertain,
+le2i/home_01/18,home_01,seen,high-confidence segment,seen|seen,home:11(high);home:12(low)
+le2i/home_01/19,home_01,probably_seen,medium-confidence segment,probably_seen|uncertain,home:13(medium)
+le2i/home_01/20,home_01,probably_seen,medium-confidence segment,probably_seen|uncertain,home:15(medium);home:16(medium)
+le2i/home_01/21,home_01,probably_seen,1 unresolved segments for 1 videos,probably_seen|uncertain,
+le2i/home_01/22,home_01,seen,high-confidence segment,seen|seen,home:17(high)
+le2i/home_01/23,home_01,seen,high-confidence segment,seen|seen,home:18(high)
+le2i/home_01/24,home_01,seen,high-confidence segment,seen|seen,home:19(high)
+le2i/home_01/25,home_01,seen,high-confidence segment,seen|seen,home:20(high)
+le2i/home_01/26,home_01,seen,high-confidence segment,seen|seen,home:21(high)
+le2i/home_01/27,home_01,seen,high-confidence segment,seen|seen,home:22(high)
+le2i/home_01/28,home_01,probably_seen,medium-confidence segment,probably_seen|probably_seen,home:23(medium)
+le2i/home_01/29,home_01,seen,high-confidence segment,seen|seen,home:24(high)
+le2i/home_01/30,home_01,probably_seen,medium-confidence segment,probably_seen|probably_seen,home:26(medium);home:27(low)
+le2i/home_02/31,home_02,probably_seen,1 unresolved segments for 1 videos,probably_seen|probably_seen,
+le2i/home_02/32,home_02,seen,high-confidence segment,seen|seen,home:28(high)
+le2i/home_02/33,home_02,probably_seen,3 unresolved segments for 3 videos,probably_seen|probably_seen,
+le2i/home_02/34,home_02,probably_seen,medium-confidence segment,probably_seen|probably_seen,home:29(medium)
+le2i/home_02/35,home_02,seen,high-confidence segment,probably_seen|seen,home:31(high)
+le2i/home_02/36,home_02,seen,high-confidence segment,probably_seen|seen,home:32(high)
+le2i/home_02/37,home_02,seen,high-confidence segment,seen|seen,home:30(low);home:31(low);home:32(low);home:33(high)
+le2i/home_02/38,home_02,seen,high-confidence segment,seen|seen,home:34(high)
+le2i/home_02/39,home_02,seen,high-confidence segment,seen|seen,home:35(high)
+le2i/home_02/40,home_02,seen,high-confidence segment,probably_seen|seen,home:37(high);home:38(low)
+le2i/home_02/41,home_02,probably_seen,2 unresolved segments for 2 videos,probably_seen|probably_seen,
+le2i/home_02/42,home_02,seen,high-confidence segment,seen|seen,home:39(high)
+le2i/home_02/43,home_02,seen,high-confidence segment,seen|seen,home:40(high)
+le2i/home_02/44,home_02,seen,high-confidence segment,seen|seen,home:41(high)
+le2i/home_02/45,home_02,seen,high-confidence segment,seen|seen,home:42(high)
+le2i/home_02/46,home_02,seen,high-confidence segment,seen|seen,home:43(high)
+le2i/home_02/47,home_02,seen,high-confidence segment,seen|seen,home:44(high)
+le2i/home_02/48,home_02,probably_seen,1 unresolved segments for 1 videos,probably_seen|probably_seen,
+le2i/home_02/49,home_02,probably_seen,medium-confidence segment,probably_seen|probably_seen,home:45(low);home:46(medium)
+le2i/home_02/50,home_02,probably_seen,medium-confidence segment,probably_seen|probably_seen,home:48(medium)
+le2i/home_02/51,home_02,probably_seen,medium-confidence segment,probably_seen|probably_seen,home:49(medium)
+le2i/home_02/52,home_02,seen,high-confidence segment,seen|seen,home:50(high)
+le2i/home_02/53,home_02,seen,high-confidence segment,seen|probably_seen,home:51(high)
+le2i/home_02/54,home_02,seen,high-confidence segment,seen|seen,home:52(high)
+le2i/home_02/55,home_02,seen,high-confidence segment,seen|seen,home:53(high)
+le2i/home_02/56,home_02,seen,high-confidence segment,seen|seen,home:54(high)
+le2i/home_02/57,home_02,seen,high-confidence segment,seen|seen,home:55(high)
+le2i/home_02/58,home_02,seen,high-confidence segment,seen|seen,home:56(high)
+le2i/home_02/59,home_02,seen,high-confidence segment,seen|seen,home:57(high)
+le2i/home_02/60,home_02,seen,high-confidence segment,seen|seen,home:59(high)
+le2i/lecture_room/1,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/2,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/3,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/4,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/5,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/6,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/7,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/8,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/9,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/10,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/11,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/12,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/13,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/14,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/15,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/16,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/17,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/18,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/19,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/20,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/21,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/22,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/23,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/24,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/25,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/26,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/lecture_room/27,lecture_room,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/1,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/2,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/3,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/4,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/5,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/6,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/7,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/8,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/9,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/10,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/11,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/12,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/13,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/14,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/15,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/16,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/17,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/18,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/19,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/20,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/21,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/22,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/23,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/24,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/25,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/26,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/27,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/28,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/29,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/30,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/31,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/32,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,
+le2i/office/33,office,unseen,scene folder not used by legacy pickles; no confident content match,unseen|unseen,

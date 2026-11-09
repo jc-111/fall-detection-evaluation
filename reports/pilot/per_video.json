@@ -1,0 +1,509 @@
+[
+ {
+  "video_id": "le2i/lecture_room/2",
+  "detector": "rule_r50",
+  "scene": "lecture_room",
+  "n_falls": 1,
+  "n_pred": 1,
+  "n_detected": 1,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [
+   0.6
+  ],
+  "duration_s": 20.24,
+  "non_fall_duration_s": 15.0,
+  "pred": [
+   [
+    390,
+    403
+   ]
+  ]
+ },
+ {
+  "video_id": "le2i/lecture_room/2",
+  "detector": "stgcn_r50",
+  "scene": "lecture_room",
+  "n_falls": 1,
+  "n_pred": 1,
+  "n_detected": 1,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [
+   0.8
+  ],
+  "duration_s": 20.24,
+  "non_fall_duration_s": 15.0,
+  "pred": [
+   [
+    395,
+    417
+   ]
+  ]
+ },
+ {
+  "video_id": "le2i/lecture_room/2",
+  "detector": "stgcn_r101",
+  "scene": "lecture_room",
+  "n_falls": 1,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 20.24,
+  "non_fall_duration_s": 15.0,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/lecture_room/10",
+  "detector": "rule_r50",
+  "scene": "lecture_room",
+  "n_falls": 1,
+  "n_pred": 1,
+  "n_detected": 1,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [
+   0.44
+  ],
+  "duration_s": 19.72,
+  "non_fall_duration_s": 14.12,
+  "pred": [
+   [
+    352,
+    371
+   ]
+  ]
+ },
+ {
+  "video_id": "le2i/lecture_room/10",
+  "detector": "stgcn_r50",
+  "scene": "lecture_room",
+  "n_falls": 1,
+  "n_pred": 1,
+  "n_detected": 1,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [
+   0.68
+  ],
+  "duration_s": 19.72,
+  "non_fall_duration_s": 14.12,
+  "pred": [
+   [
+    358,
+    380
+   ]
+  ]
+ },
+ {
+  "video_id": "le2i/lecture_room/10",
+  "detector": "stgcn_r101",
+  "scene": "lecture_room",
+  "n_falls": 1,
+  "n_pred": 1,
+  "n_detected": 1,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [
+   0.72
+  ],
+  "duration_s": 19.72,
+  "non_fall_duration_s": 14.12,
+  "pred": [
+   [
+    359,
+    370
+   ]
+  ]
+ },
+ {
+  "video_id": "le2i/lecture_room/11",
+  "detector": "rule_r50",
+  "scene": "lecture_room",
+  "n_falls": 1,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 14.52,
+  "non_fall_duration_s": 8.8,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/lecture_room/11",
+  "detector": "stgcn_r50",
+  "scene": "lecture_room",
+  "n_falls": 1,
+  "n_pred": 1,
+  "n_detected": 1,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [
+   1.32
+  ],
+  "duration_s": 14.52,
+  "non_fall_duration_s": 8.8,
+  "pred": [
+   [
+    274,
+    279
+   ]
+  ]
+ },
+ {
+  "video_id": "le2i/lecture_room/11",
+  "detector": "stgcn_r101",
+  "scene": "lecture_room",
+  "n_falls": 1,
+  "n_pred": 1,
+  "n_detected": 1,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [
+   1.56
+  ],
+  "duration_s": 14.52,
+  "non_fall_duration_s": 8.8,
+  "pred": [
+   [
+    280,
+    341
+   ]
+  ]
+ },
+ {
+  "video_id": "le2i/lecture_room/23",
+  "detector": "rule_r50",
+  "scene": "lecture_room",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 27.0,
+  "non_fall_duration_s": 27.0,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/lecture_room/23",
+  "detector": "stgcn_r50",
+  "scene": "lecture_room",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 27.0,
+  "non_fall_duration_s": 27.0,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/lecture_room/23",
+  "detector": "stgcn_r101",
+  "scene": "lecture_room",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 27.0,
+  "non_fall_duration_s": 27.0,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/lecture_room/26",
+  "detector": "rule_r50",
+  "scene": "lecture_room",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 57.16,
+  "non_fall_duration_s": 57.16,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/lecture_room/26",
+  "detector": "stgcn_r50",
+  "scene": "lecture_room",
+  "n_falls": 0,
+  "n_pred": 1,
+  "n_detected": 0,
+  "n_false_alarms": 1,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 57.16,
+  "non_fall_duration_s": 57.16,
+  "pred": [
+   [
+    358,
+    362
+   ]
+  ]
+ },
+ {
+  "video_id": "le2i/lecture_room/26",
+  "detector": "stgcn_r101",
+  "scene": "lecture_room",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 57.16,
+  "non_fall_duration_s": 57.16,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/office/3",
+  "detector": "rule_r50",
+  "scene": "office",
+  "n_falls": 1,
+  "n_pred": 1,
+  "n_detected": 1,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [
+   0.48
+  ],
+  "duration_s": 18.68,
+  "non_fall_duration_s": 13.44,
+  "pred": [
+   [
+    357,
+    360
+   ]
+  ]
+ },
+ {
+  "video_id": "le2i/office/3",
+  "detector": "stgcn_r50",
+  "scene": "office",
+  "n_falls": 1,
+  "n_pred": 1,
+  "n_detected": 1,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [
+   0.56
+  ],
+  "duration_s": 18.68,
+  "non_fall_duration_s": 13.44,
+  "pred": [
+   [
+    359,
+    388
+   ]
+  ]
+ },
+ {
+  "video_id": "le2i/office/3",
+  "detector": "stgcn_r101",
+  "scene": "office",
+  "n_falls": 1,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 18.68,
+  "non_fall_duration_s": 13.44,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/office/9",
+  "detector": "rule_r50",
+  "scene": "office",
+  "n_falls": 1,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 8.24,
+  "non_fall_duration_s": 2.76,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/office/9",
+  "detector": "stgcn_r50",
+  "scene": "office",
+  "n_falls": 1,
+  "n_pred": 1,
+  "n_detected": 1,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [
+   0.64
+  ],
+  "duration_s": 8.24,
+  "non_fall_duration_s": 2.76,
+  "pred": [
+   [
+    80,
+    111
+   ]
+  ]
+ },
+ {
+  "video_id": "le2i/office/9",
+  "detector": "stgcn_r101",
+  "scene": "office",
+  "n_falls": 1,
+  "n_pred": 1,
+  "n_detected": 1,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [
+   0.76
+  ],
+  "duration_s": 8.24,
+  "non_fall_duration_s": 2.76,
+  "pred": [
+   [
+    83,
+    106
+   ]
+  ]
+ },
+ {
+  "video_id": "le2i/office/21",
+  "detector": "rule_r50",
+  "scene": "office",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 17.12,
+  "non_fall_duration_s": 17.12,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/office/21",
+  "detector": "stgcn_r50",
+  "scene": "office",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 17.12,
+  "non_fall_duration_s": 17.12,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/office/21",
+  "detector": "stgcn_r101",
+  "scene": "office",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 17.12,
+  "non_fall_duration_s": 17.12,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/office/29",
+  "detector": "rule_r50",
+  "scene": "office",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 48.84,
+  "non_fall_duration_s": 48.84,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/office/29",
+  "detector": "stgcn_r50",
+  "scene": "office",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 48.84,
+  "non_fall_duration_s": 48.84,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/office/29",
+  "detector": "stgcn_r101",
+  "scene": "office",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 48.84,
+  "non_fall_duration_s": 48.84,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/office/30",
+  "detector": "rule_r50",
+  "scene": "office",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 49.88,
+  "non_fall_duration_s": 49.88,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/office/30",
+  "detector": "stgcn_r50",
+  "scene": "office",
+  "n_falls": 0,
+  "n_pred": 0,
+  "n_detected": 0,
+  "n_false_alarms": 0,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 49.88,
+  "non_fall_duration_s": 49.88,
+  "pred": []
+ },
+ {
+  "video_id": "le2i/office/30",
+  "detector": "stgcn_r101",
+  "scene": "office",
+  "n_falls": 0,
+  "n_pred": 1,
+  "n_detected": 0,
+  "n_false_alarms": 1,
+  "n_ignored_pred": 0,
+  "latencies_s": [],
+  "duration_s": 49.88,
+  "non_fall_duration_s": 49.88,
+  "pred": [
+   [
+    418,
+    418
+   ]
+  ]
+ }
+]

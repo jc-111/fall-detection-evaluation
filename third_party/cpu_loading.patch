@@ -1,0 +1,80 @@
+diff --git a/third_party/human_falling_detect_tracks/DetectorLoader.py b/third_party/human_falling_detect_tracks/DetectorLoader.py
+index 3861ebe..fe60d81 100644
+--- a/third_party/human_falling_detect_tracks/DetectorLoader.py
++++ b/third_party/human_falling_detect_tracks/DetectorLoader.py
+@@ -29,7 +29,7 @@ class TinyYOLOv3_onecls(object):
+                  device='cuda'):
+         self.input_size = input_size
+         self.model = Darknet(config_file).to(device)
+-        self.model.load_state_dict(torch.load(weight_file))
++        self.model.load_state_dict(torch.load(weight_file, map_location=device))
+         self.model.eval()
+         self.device = device
+ 
+diff --git a/third_party/human_falling_detect_tracks/PoseEstimateLoader.py b/third_party/human_falling_detect_tracks/PoseEstimateLoader.py
+index d805099..36c56ec 100644
+--- a/third_party/human_falling_detect_tracks/PoseEstimateLoader.py
++++ b/third_party/human_falling_detect_tracks/PoseEstimateLoader.py
+@@ -13,7 +13,8 @@ class SPPE_FastPose(object):
+                  backbone,
+                  input_height=320,
+                  input_width=256,
+-                 device='cuda'):
++                 device='cuda',
++                 weights_file=None):
+         assert backbone in ['resnet50', 'resnet101'], '{} backbone is not support yet!'.format(backbone)
+ 
+         self.inp_h = input_height
+@@ -21,9 +22,9 @@ class SPPE_FastPose(object):
+         self.device = device
+ 
+         if backbone == 'resnet101':
+-            self.model = InferenNet_fast().to(device)
++            self.model = (InferenNet_fast(weights_file) if weights_file else InferenNet_fast()).to(device)
+         else:
+-            self.model = InferenNet_fastRes50().to(device)
++            self.model = (InferenNet_fastRes50(weights_file) if weights_file else InferenNet_fastRes50()).to(device)
+         self.model.eval()
+ 
+     def predict(self, image, bboxs, bboxs_scores):
+diff --git a/third_party/human_falling_detect_tracks/SPPE/src/main_fast_inference.py b/third_party/human_falling_detect_tracks/SPPE/src/main_fast_inference.py
+index 696687a..57731bc 100644
+--- a/third_party/human_falling_detect_tracks/SPPE/src/main_fast_inference.py
++++ b/third_party/human_falling_detect_tracks/SPPE/src/main_fast_inference.py
+@@ -27,10 +27,10 @@ class InferenNet(nn.Module):
+     def __init__(self, dataset, weights_file='./Models/sppe/fast_res101_320x256.pth'):
+         super().__init__()
+ 
+-        self.pyranet = FastPose('resnet101').cuda()
++        self.pyranet = FastPose('resnet101')
+         print('Loading pose model from {}'.format(weights_file))
+         sys.stdout.flush()
+-        self.pyranet.load_state_dict(torch.load(weights_file))
++        self.pyranet.load_state_dict(torch.load(weights_file, map_location='cpu'))
+         self.pyranet.eval()
+         self.pyranet = model
+ 
+@@ -55,9 +55,9 @@ class InferenNet_fast(nn.Module):
+     def __init__(self, weights_file='./Models/sppe/fast_res101_320x256.pth'):
+         super().__init__()
+ 
+-        self.pyranet = FastPose('resnet101').cuda()
++        self.pyranet = FastPose('resnet101')
+         print('Loading pose model from {}'.format(weights_file))
+-        self.pyranet.load_state_dict(torch.load(weights_file))
++        self.pyranet.load_state_dict(torch.load(weights_file, map_location='cpu'))
+         self.pyranet.eval()
+ 
+     def forward(self, x):
+@@ -71,9 +71,9 @@ class InferenNet_fastRes50(nn.Module):
+     def __init__(self, weights_file='./Models/sppe/fast_res50_256x192.pth'):
+         super().__init__()
+ 
+-        self.pyranet = FastPose('resnet50', 17).cuda()
++        self.pyranet = FastPose('resnet50', 17)
+         print('Loading pose model from {}'.format(weights_file))
+-        self.pyranet.load_state_dict(torch.load(weights_file))
++        self.pyranet.load_state_dict(torch.load(weights_file, map_location='cpu'))
+         self.pyranet.eval()
+ 
+     def forward(self, x):
