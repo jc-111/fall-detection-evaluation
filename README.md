@@ -145,6 +145,37 @@ The public 7-class upstream ST-GCN (`configs/upstream_7class.yaml`) runs the sam
 
 `map_legacy_segments.py` additionally needs the private legacy training pickles. The reports record the exact extraction settings (`reports/l1/extractors.json`).
 
+## Legacy web interface (original project)
+
+The original project was a **Django website** with these parts:
+- a live-detection page;
+- user accounts with profiles and activity history;
+- rehabilitation mini-games;
+- quizzes;
+- home-safety articles.
+
+**Not published here:**
+- its source;
+- its database schema;
+- its credentials;
+- its third-party assets.
+
+All of those are preserved in a private archive.
+
+| | |
+|---|---|
+| Source preserved | Yes, privately: Django project, 4 apps, 35 templates, CSS/JS/images, migrations |
+| Boots today | Yes, locally on Django 4.2 with throwaway SQLite settings and the game libraries stubbed, without modifying the legacy code |
+| Live detection works | **No.** The video-stream view fails (`NameError: name 'main' is not defined`, because the inference import in `detect/views.py` is commented out). As designed, it would also read the *server's* camera, not the visitor's |
+
+![Legacy detection page, static screenshot](docs/legacy_web/detection_page_static.jpg)
+
+*Static screenshot of the original detection page, rendered by the legacy Django app on 2026-11-09.*
+- No camera or detection is running.
+- The placeholder text reads "your camera is not on yet".
+- The 開始偵測 / 停止偵測 buttons are "start detection" / "stop detection".
+- This is **not** a working demo.
+
 ## Repository layout
 
 ```
